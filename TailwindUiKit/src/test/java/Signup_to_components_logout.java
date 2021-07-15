@@ -25,8 +25,8 @@ public class Signup_to_components_logout {
         wdat.driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div[5]/p[2]/a")).click();
         wdat.timeOut3Sec();
         wdat.driver.findElement(By.xpath("//*[@id=\"name\"]")).sendKeys("Abdullah");
-        wdat.driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("abdullah.alphasquad@gmail.com");
-        wdat.driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("123456789@.098");
+        wdat.driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("Your Email Id");
+        wdat.driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Your Pass");
         wdat.timeOut3Sec();
 
         WebElement element = wdat.driver.findElement(By.xpath("//*[@id=\"signupbtn\"]"));
@@ -90,8 +90,8 @@ public class Signup_to_components_logout {
         wdat.timeOut3Sec();
 
         //enter email adn pass
-        wdat.driver.findElement(By.xpath("//*[@id=\"email2\"]")).sendKeys("abdullah.alphasquad@gmail.com");
-        wdat.driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("123456789@.098");
+        wdat.driver.findElement(By.xpath("//*[@id=\"email2\"]")).sendKeys("Your email id");
+        wdat.driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Your pass");
         wdat.timeOut3Sec();
 
         //press login
@@ -220,13 +220,5 @@ public class Signup_to_components_logout {
         wdat.timeOut3Sec();
 
     }
-
-
-
-
-
-
-
-
 
 }
